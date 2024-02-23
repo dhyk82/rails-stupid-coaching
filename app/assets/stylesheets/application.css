@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+ .ask-coach {
+  margin-top: 40px;
+  margin-left: 40px;
+ }
+
+ .form-text-submit {
+  display: flex;
+  align-items: center;
+ }
+
+ input {
+  width: 400px;
+  height: 40px;
+  border-radius: 4px;
+  float: left;
+ }
+
+ button {
+  float: left;
+  height: 40px;
+  width: 60px;
+  background-color: rgb(57, 151, 198);
+  border-radius: 4px;
+  color: white;
+ }
+
+ p {
+  font-size: 15px;
+  font-weight: 200;
+ }
